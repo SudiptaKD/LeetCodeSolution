@@ -22,3 +22,9 @@
     return isThere;
 };
 console.log(strStr('hello', 'll'))
+
+//Easy Solution
+var strStr2 = function(haystack, needle) {
+    if(!haystack && !needle) return 0
+    else return haystack.indexOf(needle)
+};
